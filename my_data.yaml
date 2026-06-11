@@ -1,0 +1,16 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+path: D:\Coding\python\DeepLearning\Object_Detection\Specific\Orange\Orange_Detection\DataSet # dataset root dir
+train: images/train/  # train images
+val: images/val/  # val images
+test: images/test/ # test images (optional)
+
+nc: 5
+
+# Classes
+names:
+  0: middle_ripe
+  1: complete_ripe
+  2: color_transfer
+  3: primary_ripe
+  4: green_ripe
